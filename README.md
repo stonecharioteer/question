@@ -1,4 +1,4 @@
-# question
+# A Question
 
 The file, data.dat, is an ascii file with acceleration information, provided in sets like below. 
 
