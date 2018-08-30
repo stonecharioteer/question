@@ -51,6 +51,8 @@ And write this information to a csv file with the following columns:
   ] 
 ```
 
+Feel free to fork this repo and provide the solution.
+
 That is all.
 
 Do not use any third-party libraries to parse this file. Rely on the simplest logic.
