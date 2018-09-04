@@ -45,7 +45,7 @@ And write this information to a csv file with the following columns:
 
 ```
   [ 
-  "point_id",
+  "point_id", "frequency",
   "t1_magnitude", "t1_phase", "t2_magnitude", "t2_phase", "t3_magnitude", "t3_phase", 
   "r1_magnitude", "r1_phase", "r2_magnitude", "r2_phase", "r3_magnitude", "r3_phase"
   ] 
