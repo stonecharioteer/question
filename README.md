@@ -112,3 +112,8 @@ One bonus point each for:
 2. **Docstrings**, readable, sphinx-compliant, docstrings.
 3. **Sphinx-based documentation**.
 4. **pip-installable cli**.
+
+
+## Note
+
+Remember, it is okay to learn how to solve this question while solving it. Google is your friend.
