@@ -82,7 +82,7 @@ Your application should output the following help statement.
 1. When in doubt, remember [the Zen of Python.](https://www.python.org/dev/peps/pep-0020/)
 1. Use the folder structure recommended for python applications [here](https://realpython.com/python-application-layouts/).
 1. Write unit-tests for your code. Assert that the number of points in the csv file is equal to the number of points in the original data file after using your core function.
-1. Fork this repo and put your answer there.
+1. Fork this repo and put your answer there. Submit a pull request when done.
 1. Take no longer than 2 days to solve this problem.
 
 ## Scoring Methodology
@@ -92,13 +92,13 @@ Your response will be scored one point on each of the following
 1. **Code originality.** You can Google for answers, but asking on StackOverflow, Reddit, Quora or other online forums for straight up answers is a no. Also copying answers from other forks is a no.
 2. **Code readability.** Follow the rules outlined in PEP20.
 3. **Tests.** Your tests must pass other datasets we will use. The given data is to be assumed representative of the other datasets.
-4. **Commit History.** Your answers, naturally, must be on Github, or Gitlab, if you so prefer. You will be scored for the commit messages, so commit often, and make sure your commits have meaning.
+4. **Commit History.** Your answers, naturally, must be on Github. You will be scored for the commit messages, so commit often, and make sure your commits have meaning.
 5. **Algorithm Readability.** Algorithms matter. A simple algorithm, when done well, is beautiful and shows that you think coherently. We love list comprehensions too, but trying to recreate The Inception in list comprehensions is just inviting trouble.
 6. **Documentation** Comments matter. But they should be readable, and follow the recommended conventions.
 
 ## Automatic Failures
 
-You will automatically fail this test if your code
+You will automatically fail this test if your code:
 
 1. Is plagiarised from other forks.
 2. Has **anything** related to the data or positions of the data hardcoded into it. If you have to make assumptions, parametrize them.
