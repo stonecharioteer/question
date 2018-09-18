@@ -111,7 +111,7 @@ One bonus point each for:
 1. **Algorithm Simplicity**
 2. **Docstrings**, readable, sphinx-compliant, docstrings.
 3. **Sphinx-based documentation**.
-4. **pip-installable cli**.
+4. **pip-installable cli**. (Does not have to be on pypi, a simple setup.py is sufficient. Don't litter pypi.)
 
 ## Note
 
