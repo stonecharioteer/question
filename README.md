@@ -1,6 +1,9 @@
 # A Question
 
-The file, data.dat, is an ascii file with acceleration information, provided in sets like below. 
+## About the Dataset
+
+The file, data.dat, is an *ascii* file with acceleration information, provided in sets like below. 
+
 
 
 ```
@@ -36,12 +39,16 @@ For each point ID, there corresponds two rows. The first row is the magnitude, t
 
 T1, T2, T3, R1, R2 and R3 correspond to spatial and rotational information about the vectors.
 
-For brevity, ignore the rest of the information in the file and parse the following.
+
+
+## Problem Statement
+
+For brevity, *ignore* the rest of the information in the file and parse the following.
 
 - [ ] FREQUENCY
 - [ ] POINT ID and the corresponding T and R columns (both magnitude and phase)
 
-And write this information to a csv file with the following columns:
+Create a commandline application, called `parse_vectors.py`, which will parse this information and write to a csv file with the following columns:
 
 ```
   [ 
@@ -51,10 +58,57 @@ And write this information to a csv file with the following columns:
   ] 
 ```
 
-Feel free to fork this repo and provide the solution.
+Your application should output the following help statement.
 
-That is all.
+```
+      python parse_vectors.py -h
+      Tool to parse the vectors from a given data file.
+      
+      usage: parse_vectors.py [-h] [--i] [--o] [--p_ids]
+      
+      positional arguments:
+            i           Input dat file.
+            o           Output csv file.
+      optional arguments
+            -h, --help  show this help message and exit.
+            --p_ids     Only read data for the given point ids.
+```
 
-Do not use any third-party libraries to parse this file. Rely on the simplest logic.
+## Instructions
 
-When in doubt, remember [the Zen of Python.](https://www.python.org/dev/peps/pep-0020/)
+1. Write a function `parse_vectors` that performs the core functionality of the 
+#. Use the `argparse` library to create the commandline tool, not `sys.argv`.
+#. Do not use any third-party libraries to parse this file. Rely on the simplest logic.
+#. When in doubt, remember [the Zen of Python.](https://www.python.org/dev/peps/pep-0020/)
+#. Use the folder structure recommended for python applications [here](https://realpython.com/python-application-layouts/).
+#. Write unit-tests for your code. Assert that the number of points in the csv file is equal to the number of points in the original data file after using your core function.
+#. Fork this repo and put your answer there.
+#. Take no longer than 2 days to solve this problem.
+
+## Scoring Methodology
+
+Your response will be scored one point on each of the following
+
+1. **Code originality.** You can Google for answers, but asking on StackOverflow, Reddit, Quora or other online forums for straight up answers is a no. Also copying answers from other forks is a no.
+2. **Code readability.** Follow the rules outlined in PEP20.
+3. **Tests.** Your tests must pass other datasets we will use. The given data is to be assumed representative of the other datasets.
+4. **Commit History.** Your answers, naturally, must be on Github, or Gitlab, if you so prefer. You will be scored for the commit messages, so commit often, and make sure your commits have meaning.
+5. **Algorithm Readability.** Algorithms matter. A simple algorithm, when done well, is beautiful and shows that you think coherently. We love list comprehensions too, but trying to recreate The Inception in list comprehensions is just inviting trouble.
+6. **Documentation** Comments matter. But they should be readable, and follow the recommended conventions.
+
+## Automatic Failures
+
+You will automatically fail this test if your code
+
+1. Is plagiarised from other forks.
+2. Has **anything** related to the data or positions of the data hardcoded into it. If you have to make assumptions, parametrize them.
+3. Has global variables and/or global scope.
+
+## Bonus Points
+
+One bonus point each for:
+
+1. **Algorithm Simplicity**
+2. **Docstrings**, readable, sphinx-compliant, docstrings.
+3. **Sphinx-based documentation**.
+4. **pip-installable cli**.
