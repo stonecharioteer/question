@@ -87,10 +87,10 @@ Your application should output the following help statement.
 
 ## Scoring Methodology
 
-Your response will be scored one point on each of the following
+Your response will be scored one point on each of the following:
 
 1. **Code originality.** You can Google for answers, but asking on StackOverflow, Reddit, Quora or other online forums for straight up answers is a no. Also copying answers from other forks is a no.
-2. **Code readability.** Follow the rules outlined in PEP20.
+2. **Code readability.** Follow the rules outlined in [PEP008](https://www.python.org/dev/peps/pep-0008/) and [PEP020](https://www.python.org/dev/peps/pep-0020/).
 3. **Tests.** Your tests must pass other datasets we will use. The given data is to be assumed representative of the other datasets.
 4. **Commit History.** Your answers, naturally, must be on Github. You will be scored for the commit messages, so commit often, and make sure your commits have meaning.
 5. **Algorithm Readability.** Algorithms matter. A simple algorithm, when done well, is beautiful and shows that you think coherently. We love list comprehensions too, but trying to recreate The Inception in list comprehensions is just inviting trouble.
