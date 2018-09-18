@@ -77,13 +77,13 @@ Your application should output the following help statement.
 ## Instructions
 
 1. Write a function `parse_vectors` that performs the core functionality of the 
-#. Use the `argparse` library to create the commandline tool, not `sys.argv`.
-#. Do not use any third-party libraries to parse this file. Rely on the simplest logic.
-#. When in doubt, remember [the Zen of Python.](https://www.python.org/dev/peps/pep-0020/)
-#. Use the folder structure recommended for python applications [here](https://realpython.com/python-application-layouts/).
-#. Write unit-tests for your code. Assert that the number of points in the csv file is equal to the number of points in the original data file after using your core function.
-#. Fork this repo and put your answer there.
-#. Take no longer than 2 days to solve this problem.
+1. Use the `argparse` library to create the commandline tool, not `sys.argv`.
+1. Do not use any third-party libraries to parse this file. Rely on the simplest logic.
+1. When in doubt, remember [the Zen of Python.](https://www.python.org/dev/peps/pep-0020/)
+1. Use the folder structure recommended for python applications [here](https://realpython.com/python-application-layouts/).
+1. Write unit-tests for your code. Assert that the number of points in the csv file is equal to the number of points in the original data file after using your core function.
+1. Fork this repo and put your answer there.
+1. Take no longer than 2 days to solve this problem.
 
 ## Scoring Methodology
 
