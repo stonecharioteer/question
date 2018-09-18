@@ -48,7 +48,7 @@ For brevity, *ignore* the rest of the information in the file and parse the foll
 - [ ] FREQUENCY
 - [ ] POINT ID and the corresponding T and R columns (both magnitude and phase)
 
-Create a commandline application, called `parse_vectors.py`, which will parse this information and write to a csv file with the following columns:
+Create a commandline **python** application, called `parse_vectors.py`, which will parse this information and write to a csv file with the following columns:
 
 ```
   [ 
@@ -112,7 +112,6 @@ One bonus point each for:
 2. **Docstrings**, readable, sphinx-compliant, docstrings.
 3. **Sphinx-based documentation**.
 4. **pip-installable cli**.
-
 
 ## Note
 
